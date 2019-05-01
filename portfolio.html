@@ -18,15 +18,70 @@
   text-align: left;
   font-size: 5px;
   }
+  .flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+.classhtml{
+  text-align: center;
+  height: 400px;
+  width: 500;
+}
+
+}
+.classcss{
+  text-align: center;
+  height: 400px;
+  width: 500;
+	
+}
+.classjs{
+  text-align: center;
+  height: 400px;
+  width: 500;
+}
+.figure{
+  text-align: center;
+}
+<!-- This did not work
+.img {
+	width:200px;
+	height:200px;
+}-->
     </style>
 </head>
 <body>
 <div class="header">
-  <h1>Nupur Bajpai <img src = "MyLogo.jpg" align="left"></h1>
+  <h1>Nupur Bajpai <img src="Girl_Abstract_Grey.jpg" width="100" height="145" align="left"></h1>
 </div>
   <h3 style="text-align:right">Front End Ninja</h3>
   <hr>
-  <h2>Featured Work</h2>
+  <img src="html.gif" alt="This is a gif" style="width:1485px;height:300px;">
+  <h2>Work Experience</h2>
+</div>
+<div class="flex-container">
+  <div class="classhtml">
+  <figure>
+  <img src="logo-html-5.jpg" width="495" height="200">
+  <figcaption>HTML 5</figcaption>
+  </figure>
+  <a href="https://www.w3schools.com/html/">W3 Schools Link</a>
+  </div>
+  <div class="classcss">
+  <figure>
+  <img src="logo-css-3.jpg" width="495" height="200">
+  <figcaption>CSS  3</figcaption>
+  </figure>
+  <a href="https://www.tutorialspoint.com/css/">Tutorials Point Link</a>
+  </div>
+  <div class="classjs">
+  <figure>
+  <img src="logo-js.jpg" width="495" height="200">
+  <figcaption>JavaScript</figcaption>
+  <a href="https://www.geeksforgeeks.org/javascript-tutorial/">Geeks for Geeks Link</a>
+  </figure>
+  </div>
 </div>
 </body>
 </html>
