@@ -1,0 +1,75 @@
+h1 {
+  /*padding: 5px;*/
+  text-align: right;
+  background: #7d97ad;
+  /*color: white;*/
+  font-size: 30px;
+  }
+h2 {
+	text-align: right;
+	font-size: 20px;
+	background: #7d97ad;
+	}
+	
+h3 {
+	text-align: center;
+	/* background: #7d97ad; - This did not work */
+	font-size: 20px;
+	height: 200px; /* No Change */
+	}
+	
+	.flex-container-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 98vw;
+	border:  1px solid yellow;
+	}
+	
+  .flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 98vw;
+	border:  2px solid yellow;
+	}
+	
+.classhtml {
+	text-align: center;
+	height: 50vh; /*400px;*/
+	width: 30vw;
+	border:  0.8px solid yellow;
+	/*width: 500;*/
+	}
+
+.classcss {
+	text-align: center;
+	height: 50vh; /*400px;*/
+	width: 30vw;
+	border:  0.8px solid yellow;
+	/*width: 500;*/
+	}
+	
+.classjs {
+	text-align: center;
+	height: 50vh; /*400px;*/
+	width: 30vw;
+	border:  0.8px solid yellow;
+	/*width: 500;*/
+	}
+	
+.figure{
+	background-size: cover;
+	/*text-align: center;*/
+	}
+	
+.img{
+	background-size: cover;
+	/*height: 400px;*/
+	width: 30vw;
+}
+/*<!-- This did not work
+.img {
+	width:200px;
+	height:200px;
+}-->*/
