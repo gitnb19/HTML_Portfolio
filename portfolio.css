@@ -17,6 +17,23 @@ h3 {
 	font-size: 20px;
 	height: 200px; /* No Change */
 	}
+	.grid-container{
+		display: grid;
+		width: 100vw;
+		margin: auto;
+		grid-template-columns: 30vw 30vw 30vw;
+		grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh;
+		grid-gap: 5px;
+		grid-template-areas:
+		"myImage myName myName"
+		"myImage myIntro myIntro"
+		"headerImage headerImage headerImage" 
+		"headerText headerText headerText"
+		"linksToTips linksToTips linksToTips"
+		"linksToArticle1 linksToArticle2 linksToArticle3"
+		border: 2px solid rgb(247,182,96);
+	}
+	
 	
 	.flex-container-links {
 	display: flex;
@@ -34,7 +51,7 @@ h3 {
 	border:  2px solid yellow;
 	}
 	
-.classhtml {
+.article {
 	text-align: center;
 	height: 50vh; /*400px;*/
 	width: 30vw;
@@ -67,6 +84,20 @@ h3 {
 	background-size: cover;
 	/*height: 400px;*/
 	width: 30vw;
+}
+.img-select{
+	width: 20vw;
+	height: 40vh;
+}
+
+#htmlArticle{
+	grid-area: myImage;
+}
+#cssArticle{
+	grid-area: myName;
+}
+#jsArticle{
+	grid-area: myName;
 }
 /*<!-- This did not work
 .img {
